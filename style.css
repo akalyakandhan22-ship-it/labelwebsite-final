@@ -1,0 +1,315 @@
+@media (max-width: 576px) {
+    .footer-fullwidth {
+        width: 100vw !important;
+        margin: 0 !important;
+        padding-left: 5px !important;
+        padding-right: 0 !important;
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+
+.hero {
+    padding: 60px 0;
+}
+
+.hero h6 {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.hero h1 {
+    /* font-family: Inter; */
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 56px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.highlight {
+    color: #b388eb;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.btn-purple {
+    background-color: #8000c9;
+    color: white;
+    padding: 10px 24px;
+    font-weight: 500;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.images {
+    position: relative;
+}
+
+.img-top {
+    position: absolute;
+    top: -40px;
+    left: -40px;
+    width: 250px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.img-bottom {
+    width: 300px;
+    margin-left: 100px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+/* section-2 */
+
+.about-wrapper {
+    background-color: #f3e6f9;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-image {
+    /* border-top-left-radius: 50% 50%; */
+    /* border-bottom-left-radius: 50% 50%; */
+    max-width: 100%;
+    height: auto;
+}
+
+.about-badge {
+    background-color: #6f2dbd;
+    color: white;
+}
+
+.about-heading {
+    font-size: 2rem;
+}
+
+.about-description {
+    font-size: 1rem;
+    color: #666;
+}
+
+.info-card {
+    background-color: white;
+    border: 1px solid #e0d0ef;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    height: 100%;
+}
+
+.info-icon {
+    font-size: 1.2rem;
+}
+
+.text-purple {
+    color: #6f2dbd;
+}
+
+
+/* section-3 */
+
+
+.services-section {
+    background-color: #fff;
+}
+
+.services-badge {
+    background-color: #6f2dbd;
+    color: white;
+}
+
+.services-heading {
+    font-size: 2rem;
+}
+
+.text-highlight {
+    color: #b366e8;
+}
+
+.service-card {
+    background-color: #ffffff;
+    border-radius: 1.25rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.service-img {
+    width: 100%;
+    height: 223px;
+    border-radius: 0.75rem;
+    object-fit: cover;
+}
+
+.category-badge {
+    font-size: 0.75rem;
+    padding: 0.4rem 0.6rem;
+    border-radius: 1rem;
+}
+
+.learn-btn {
+    border-width: 2px;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.learn-btn:hover {
+    background-color: #6f2dbd;
+    color: white;
+    border-color: #6f2dbd;
+}
+
+.text-purple {
+    color: #6f2dbd;
+}
+
+.border-purple {
+    border-color: #6f2dbd !important;
+}
+
+/* section-4 */
+
+
+
+
+.cta-section {
+    background-color: transparent;
+   
+    /* or remove if wrapped in color */
+}
+
+.cta-box {
+    background: rgba(117, 6, 177, 1);
+     background-image: url(assets/Group\ 1000001750.png);
+    /* background-image: radial-gradient(circle at 20% 20%, #5e1ab7 30%, transparent 30%), */
+    /* radial-gradient(circle at 80% 80%, #812fcb 30%, transparent 30%); */
+    /* background: url(assets/Brutalist\ 02.png) no-repeat; */
+    /* background: url(assets/Brutalist\ 02.png) no-repeat center center / cover; */
+    border-radius: 2rem;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.cta-heading {
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 40px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.cta-box .btn {
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+}
+
+.cta-box .btn:hover {
+    background-color: #fff;
+    color: #6f2dbd;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* section-5 */
+
+
+.testimonial-title {
+    font-size: 2.5rem;
+}
+
+        /* padding-left: 3px !important;
+    font-size: 1.1rem;
+    color: #6c757d;
+} */
+
+.testimonial-card {
+    background-color: #fff;
+}
+
+.text-purple {
+    color: #8e24aa;
+}
+
+.bg-light-subtle {
+    background-color: #f7f3f9;
+}
+.testimonial-author {
+    background-color: #F3E8EE;
+}
+
+
+/* section-6 */
+
+
+.site-footer {
+    background-color: #33004d;
+}
+
+.footer-desc {
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.footer-brand img {
+    border-radius: 6px;
+}
+
+.social-icons i {
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover i {
+    color: #cba1ff;
+}
+
+
+
+
+
+
+/* <aboutus> */
+
+
+
+
+
+
+
+
+
+  
